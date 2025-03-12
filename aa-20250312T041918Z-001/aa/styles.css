@@ -1757,7 +1757,7 @@ input[type="email"]:focus {
 }
 
 .currency-selector .header {
-    padding: 8px 12px;
+    padding: 8px 6px;
     background: var(--accent);
     color: var(--primary);
     font-weight: 600;
