@@ -1808,7 +1808,7 @@ input[type="email"]:focus {
     }
     
     .currency-selector .header {
-        padding: 6px 10px;
+        padding: 6px 6px;
         font-size: 0.7rem;
     }
     
