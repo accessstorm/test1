@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Leaders Kashmir - Adventure Awaits</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Currency Selector -->
+    <div class="currency-selector">
+        <div class="header">USD/INR</div>
+        <div class="currency-options">
+            <div class="currency-option">USD</div>
+            <div class="currency-option">INR</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Travel Leaders Kashmir</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <br/>
+            <br/>
+            <h1>Travel leaders <br/>Kashmir</h1>
+            
+
+            <!-- Floating Search Bar -->
+            <div class="search-container floating">
+                <div class="search-grid">
+                    <div class="search-field">
+                        <label for="destination">Destinations</label>
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" id="destination" placeholder="Where are you going?">
+                        </div>
+                    </div>
+
+                    <div class="search-field">
+                        <label for="activity">Activity</label>
+                        <div>
+                            <i class="fas fa-hiking"></i>
+                            <select id="activity">
+                                <option value="">All Activity</option>
+                                <option value="trekking">Trekking</option>
+                                <option value="skiing">Skiing</option>
+                                <option value="sightseeing">Sightseeing</option>
+                                <option value="photography">Photography</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="search-field">
+                        <label for="dates">Dates</label>
+                        <div>
+                            <i class="far fa-calendar-alt"></i>
+                            <input type="text" id="dates" placeholder="DD-MM-YYYY">
+                        </div>
+                    </div>
+
+                    <div class="search-field">
+                        <label for="guests">Guests</label>
+                        <div>
+                            <i class="fas fa-user-friends"></i>
+                            <input type="text" id="guests" placeholder="2 Persons">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Tours -->
+    <section class="tours" id="tours">
+        <div class="container">
+            <h2>Popular Tours</h2>
+            <p class="tours-subtitle">Discover the most breathtaking destinations in Kashmir with our carefully curated tour packages designed for unforgettable experiences.</p>
+            <div class="tour-grid">
+                <div class="tour-card">
+                    <div class="tour-badge">Bestseller</div>
+                    <img src="https://images.unsplash.com/photo-1566837497312-7be7830ae9b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Gulmarg">
+                    <div class="tour-content">
+                        <h3>Gulmarg Adventure</h3>
+                        <p>Experience skiing and stunning mountain views in the pristine snow-covered landscapes of Gulmarg.</p>
+                        <div class="tour-details">
+                            <div class="tour-detail">
+                                <i class="fas fa-clock"></i>
+                                <span>3 Days</span>
+                            </div>
+                            <div class="tour-detail">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Max 12 People</span>
+                            </div>
+                            <div class="tour-detail">
+                                <i class="fas fa-star"></i>
+                                <span>4.9 (128)</span>
+                            </div>
+                        </div>
+                        <div class="tour-price">₹15,999 <span>per person</span></div>
+                        <a href="tours.html#gulmarg" class="tour-button">View Details</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-badge">Popular</div>
+                    <img src="https://images.unsplash.com/photo-1627896157734-4d7d4388f28b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Dal Lake">
+                    <div class="tour-content">
+                        <h3>Dal Lake Serenity</h3>
+                        <p>Enjoy peaceful shikara rides and luxurious houseboat stays on the iconic Dal Lake in Srinagar.</p>
+                        <div class="tour-details">
+                            <div class="tour-detail">
+                                <i class="fas fa-clock"></i>
+                                <span>2 Days</span>
+                            </div>
+                            <div class="tour-detail">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Max 8 People</span>
+                            </div>
+                            <div class="tour-detail">
+                                <i class="fas fa-star"></i>
+                                <span>4.8 (96)</span>
+                            </div>
+                        </div>
+                        <div class="tour-price">₹12,499 <span>per person</span></div>
+                        <a href="tours.html#dal-lake" class="tour-button">View Details</a>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-badge">New</div>
+                    <img src="https://i.pinimg.com/474x/78/f6/54/78f654d115efff550debe535a4f9d83b.jpg" alt="Pahalgam">
+                    <div class="tour-content">
+                        <h3>Pahalgam Explorer</h3>
+                        <p>Discover the Valley of Shepherds with river adventures, trekking, and scenic mountain views.</p>
+                        <div class="tour-details">
+                            <div class="tour-detail">
+                                <i class="fas fa-clock"></i>
+                                <span>4 Days</span>
+                            </div>
+                            <div class="tour-detail">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Max 10 People</span>
+                            </div>
+                            <div class="tour-detail">
+                                <i class="fas fa-star"></i>
+                                <span>4.7 (64)</span>
+                            </div>
+                        </div>
+                        <div class="tour-price">₹18,999 <span>per person</span></div>
+                        <a href="tours.html#pahalgam" class="tour-button">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-tours">
+                <a href="tours.html" class="view-all-button">View All Tours</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Seasonal Highlights -->
+    <section class="seasonal-highlights">
+        <div class="container">
+            <h2>Seasonal Highlights</h2>
+            <div class="season-grid">
+                <div class="season-card winter">
+                    <h3>Winter Wonderland</h3>
+                    <p>December - February</p>
+                    <ul>
+                        <li>Skiing in Gulmarg</li>
+                        <li>Snow-covered landscapes</li>
+                        <li>Winter festivals</li>
+                    </ul>
+                </div>
+                
+                <div class="season-card spring">
+                    <h3>Spring Blooms</h3>
+                    <p>March - May</p>
+                    <ul>
+                        <li>Tulip gardens</li>
+                        <li>Mild weather</li>
+                        <li>Perfect for sightseeing</li>
+                    </ul>
+                </div>
+                <div class="season-card summer">
+                    <h3>Summer Paradise</h3>
+                    <p>June - August</p>
+                    <ul>
+                        <li>Dal Lake activities</li>
+                        <li>Mountain treks</li>
+                        <li>Cultural festivals</li>
+                    </ul>
+                </div>
+                <div class="season-card autumn">
+                    <h3>Autumn Colors</h3>
+                    <p>September - November</p>
+                    <ul>
+                        <li>Golden poplars</li>
+                        <li>Harvest festivals</li>
+                        <li>Pleasant weather</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Travelers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"An unforgettable experience in Kashmir. The team's attention to detail and local knowledge
+                            made our trip exceptional."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pinimg.com/474x/bd/3b/16/bd3b16868f55313d5d70415d8b969a91.jpg" alt="Sarah M.">
+                        <div>
+                            <h4>Sarah M.</h4>
+                            <p>Adventure Enthusiast</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"The houseboat stay on Dal Lake was magical. The service was impeccable, and the views were
+                            breathtaking."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pinimg.com/474x/bd/3b/16/bd3b16868f55313d5d70415d8b969a91.jpg" alt="Rajesh K.">
+                        <div>
+                            <h4>Rajesh K.</h4>
+                            <p>Family Traveler</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Skiing in Gulmarg was a dream come true. The guides were professional and made us feel safe
+                            throughout."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pinimg.com/474x/bd/3b/16/bd3b16868f55313d5d70415d8b969a91.jpg" alt="Michael R.">
+                        <div>
+                            <h4>Michael R.</h4>
+                            <p>Winter Sports Enthusiast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Travel Leaders Kashmir?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-mountain"></i>
+                    <h3>Expert Local Guides</h3>
+                    <p>Our experienced guides know every hidden gem in Kashmir</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Premium Accommodation</h3>
+                    <p>Stay in carefully selected hotels and traditional houseboats</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-route"></i>
+                    <h3>Customized Itineraries</h3>
+                    <p>Tailored travel plans to match your preferences</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Safe Travel</h3>
+                    <p>Your safety is our top priority throughout the journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for travel tips and special offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="submit-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Travel Leaders Kashmir</h3>
+                    <p>Your trusted partner for exploring the beauty of Kashmir.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Near fire service station kunzer gulmarg kashmir</p>
+                    <p><i class="fas fa-phone"></i> 8082349855</p>
+                    <p><i class="fas fa-envelope"></i> travelleadersk@gmail.com</p>
+                    <p><i class="fas fa-location-dot"></i> PIN: 193404</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Travel Leaders Kashmir. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/918082349855?text=Hi,%20I%20would%20like%20to%20know%20more%20about%20your%20Kashmir%20tours"
+        class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span>WhatsApp us</span>
+    </a>
+
+
+    <div id="customPopup" class="custom-modal">
+        <div class="custom-modal-content">
+            <span class="custom-close">&times;</span>
+            <h2 class="custom-modal-heading">Quick Travel Enquiry</h2>
+            <form>
+                <input type="text" placeholder="Enter Name" class="custom-rounded-input">
+                <input type="email" placeholder="Enter Email" class="custom-rounded-input">
+                <input type="tel" placeholder="Enter Phone Number" class="custom-rounded-input">
+                <select class="custom-rounded-input">
+                    <option>--Select Package--</option>
+                    <!-- Add more options here -->
+                </select>
+                <textarea placeholder="Enter Message" class="custom-rounded-input"></textarea>
+                <button type="submit" class="custom-rounded-button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
